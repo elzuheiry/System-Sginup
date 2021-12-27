@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css
+    "
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="main__container">
+        <div class="container" id="container">
+          <div class="form-container sign-up-container">
+            <form action="index.html">
+              <h1>Create Account</h1>
+              <div class="social-container">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"
+                  ><i class="fab fa-google-plus-g"></i
+                ></a>
+                <a href="#" class="social"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <span>or use your email for registration</span>
+              <div class="input__text__create">
+                <input
+                  id="input__text__create"
+                  type="text"
+                  placeholder="Type here your name"
+                />
+                <span
+                  class="message__error__show__create"
+                  id="message__error__show__text__create"
+                ></span>
+              </div>
+              <div class="input__email__create">
+                <input
+                  id="input__email__create"
+                  type="email"
+                  placeholder="Type here your mail"
+                />
+                <span
+                  class="message__error__show__create"
+                  id="message__error__show__email__create"
+                ></span>
+              </div>
+              <div class="input__password__create">
+                <input
+                  id="input__password__create"
+                  type="password"
+                  placeholder="Type here your password"
+                />
+                <span
+                  class="message__error__show__create"
+                  id="message__error__show__password__create"
+                ></span>
+              </div>
+              <button type="submit" id="submit__create">Sign Up</button>
+            </form>
+          </div>
+          <div class="form-container sign-in-container">
+            <form action="index.html">
+              <h1>Sign in</h1>
+              <div class="social-container">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"
+                  ><i class="fab fa-google-plus-g"></i
+                ></a>
+                <a href="#" class="social"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <span>or use your account</span>
+              <div class="input__email__sign">
+                <input
+                  type="email"
+                  id="input__email__sign"
+                  placeholder="Type here your mail"
+                />
+                <span
+                  class="message__error__show__sign"
+                  id="message__error__show__email__sign"
+                ></span>
+              </div>
+              <div class="input__password__sign">
+                <input
+                  type="password"
+                  id="input__password__sign"
+                  placeholder="Type here your password"
+                />
+                <span
+                  class="message__error__show__sign"
+                  id="message__error__show__password__sign"
+                ></span>
+              </div>
+              <div class="link__pass">
+                <a href="#">Forgot your password?</a>
+              </div>
+              <button type="submit" id="submit__sign">Sign In</button>
+            </form>
+          </div>
+          <div class="overlay-container">
+            <div class="overlay">
+              <div class="overlay-panel overlay-left">
+                <h1>Welcome Back!</h1>
+                <p>
+                  To keep connected with us please login with your personal info
+                </p>
+                <button class="ghost" id="signIn">Sign In</button>
+              </div>
+              <div class="overlay-panel overlay-right">
+                <h1>Hello, Friend!</h1>
+                <p>Enter your personal details and start journey with us</p>
+                <button class="ghost" id="signUp">Sign Up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="show__message" id="show__message__form">
+      <i class="fas fa-check"></i>
+      <p>Created account successful!</p>
+    </div>
+
+    <footer></footer>
+
+    <script src="./JS/index.js"></script>
+    <script src="./ASSIST/jQuery v3.5.1.js"></script>
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
